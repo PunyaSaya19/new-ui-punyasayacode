@@ -1,0 +1,48 @@
+html {
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+body {
+  /* min-height: 10000px; */
+  overflow-x: hidden !important;
+}
+
+/* button up */
+#my-btn-up {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 9999;
+}
+
+/* Home */
+img.my-hero-img {
+  width: 300px;
+}
+/* source code */
+.nav-wrapper {
+  width: 50%;
+}
+.card-img {
+    position: relative;
+}
+img.my-img-card {
+    width: 100%;
+}
+.my-harga {
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+}
+
+/* responsive */
+@media (max-width: 576px) {
+  /* Home */
+  img.my-hero-img {
+    width: 100%;
+  }
+  /* source code */
+  .nav-wrapper {
+    width: 100%;
+  }
+}
